@@ -6,17 +6,34 @@
 
 body {
     background: crimson;
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     overflow: hidden;
     height: 100vh;
 }
 
+
+h1 {
+    color: #eccc68;
+    font-size: 7rem;
+}
+
+.title {
+    height: 50%;
+    background: crimson;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex: 1;
+}
+
 .range-container {
     position: relative;
+    flex: 2;
+    margin-top: 150px;
 }
 
 input[type="range"] {
